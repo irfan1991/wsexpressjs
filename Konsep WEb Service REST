@@ -1,0 +1,34 @@
+Konsep WEb Service REST
+Stateless
+
+- Resource Data
+/user/view/{id}
+/users
+
+- Sub Resource
+/user/{id}/profile
+/users/{id}/posts
+
+- Resource ACTION
+- /register
+- /login
+
+lower case + kebab case
+/user
+/my-profle
+
+jangan menambahakn ekstens
+/user.json
+
+prefix api
+/api/users
+/api/products
+
+version
+prefix : /api/v1/users
+subdomain : v1-api.example.com/users
+query string : api/users?v=1
+custome header : "Accepts-version : 1.0 ",
+
+
+
